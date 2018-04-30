@@ -6,7 +6,7 @@
         {
             "label": "Build Legato App",
             "type": "shell",
-            "command": "source ${workspaceFolder}/.vscode/test.sh",
+            "command": "source ${workspaceFolder}/.vscode/legato_build.sh",
             "group": "build",
             "presentation": {
                 "echo": true,
