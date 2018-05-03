@@ -5,5 +5,5 @@ ADEF_FILE="example"#Change This For Your System - This is the adef file that sho
 pushd . 
 cd $LEGATO_ROOT || exit
 source ./bin/configlegatoenv  
-mkapp -t wp76xx $ADEF_FILE
 popd
+mkapp -t wp76xx $ADEF_FILE
