@@ -8,5 +8,5 @@ DEST_IP=192.168.2.2
 pushd . 
 cd $LEGATO_ROOT || exit
 source ./bin/configlegatoenv 
-app install $UPDATE_FILE $DEST_IP
 popd
+app install $UPDATE_FILE $DEST_IP

@@ -6,7 +6,6 @@
         {
             "label": "Build Legato App",
             "type": "shell",
-<<<<<<< HEAD
             "command": "source ${workspaceFolder}/.vscode/build_legato_app.sh",
             "group": "build",
             "presentation": {
@@ -20,9 +19,6 @@
             "label": "Upload Legato App",
             "type": "shell",
             "command": "source ${workspaceFolder}/.vscode/upload_legato_app.sh",
-=======
-            "command": "source ${workspaceFolder}/.vscode/legato_build.sh",
->>>>>>> 46b84f4f28ebee48e625b6323cc6811f16057478
             "group": "build",
             "presentation": {
                 "echo": true,
